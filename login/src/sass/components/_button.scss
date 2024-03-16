@@ -1,0 +1,27 @@
+.buttons {
+  display: flex;
+  gap: 17px;
+  margin-top: 1.3rem;
+  .button {
+    padding: 9px 27px;
+    border: none;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    img {
+      width: 20px;
+    }
+  }
+  .facebook {
+    background-color: #5d87df;
+  }
+  .google {
+    background-color: #fff;
+  }
+  .apple {
+    background-color: #000;
+  }
+  .xbox {
+    background-color: #007237;
+  }
+}
