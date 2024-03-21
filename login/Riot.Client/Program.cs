@@ -1,6 +1,7 @@
 
 using Microsoft.EntityFrameworkCore;
 using Riot.Client.Data;
+using Riot.Client.Logic.MapperProfiles;
 using System.Globalization;
 
 namespace Riot.Client;
@@ -15,7 +16,7 @@ public class Program
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
         builder.Services.AddDbContext<Context>(options=> options.UseSqlite(builder.Configuration.GetConnectionString("Default"), b=>b.MigrationsAssembly("Riot.Client")));
-
+        builder.Services.AddAutoMapper(typeof(DefaultMapper));
             
         var app = builder.Build();
 

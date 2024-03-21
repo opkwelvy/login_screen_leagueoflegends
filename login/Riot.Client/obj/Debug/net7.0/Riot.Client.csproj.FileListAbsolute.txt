@@ -66,3 +66,5 @@ C:\Users\KelvyCorreaNasciment\Desktop\Códigos\Login\login\Riot.Client\obj\Debug
 C:\Users\KelvyCorreaNasciment\Desktop\Códigos\Login\login\Riot.Client\obj\Debug\net7.0\Riot.Client.pdb
 C:\Users\KelvyCorreaNasciment\Desktop\Códigos\Login\login\Riot.Client\obj\Debug\net7.0\Riot.Client.genruntimeconfig.cache
 C:\Users\KelvyCorreaNasciment\Desktop\Códigos\Login\login\Riot.Client\obj\Debug\net7.0\ref\Riot.Client.dll
+C:\Users\KelvyCorreaNasciment\Desktop\Códigos\Login\login\Riot.Client\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\KelvyCorreaNasciment\Desktop\Códigos\Login\login\Riot.Client\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
