@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ItgB+dNIafBn4Fc9TjSQ7HDnFyfyOjcPG1PuazLYsro=",
+  "Source": "Riot.Client",
+  "BasePath": "_content/Riot.Client",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

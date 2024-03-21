@@ -8,7 +8,7 @@
   height: 100dvh;
   img {
     align-self: center;
-    width: 180px;
+    width: 130px;
   }
   .inputs {
     margin-top: 100px;
@@ -18,51 +18,96 @@
     width: 100%;
     h1 {
       margin-bottom: 30px;
-      font-size: 24px;
+      font-size: 22px;
       font-weight: 700;
     }
     .inputs-text {
+      label {
+        display: block;
+        width: 100%;
+        input {
+          width: 100%;
+          border-radius: 4px;
+          border: 2px solid transparent;
+          background-color: #e8e8e8;
+          font-size: 0.9em;
+          outline: none;
+          padding: 20px 10px 10px 10px;
+          box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.15);
+          &:focus {
+            background-color: #f8f8f8;
+            border: 2px solid #343434;
+          }
+        }
+        span {
+          position: absolute;
+          font-size: 0.8rem;
+          font-weight: 700;
+          text-transform: uppercase;
+          color: #a7a7a7;
+          margin: 20px;
+          cursor: text;
+          transition: 0.2s ease-in-out;
+        }
+        .active-span {
+          font-size: 0.7rem;
+          margin: 8px 10px;
+        }
+      }
       display: flex;
       flex-direction: column;
+      align-items: center;
       width: 100%;
       padding: 0 67px;
       gap: 24px;
-      input {
-        padding: 10px 8px;
-        border-radius: 4px;
-        border: none;
-        background-color: #e8e8e8;
-        box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.15);
-        &:focus {
-          background-color: white;
-          outline-width: 1px;
-        }
-      }
     }
   }
   .check {
     margin-top: 1.5rem;
     width: 71%;
     display: flex;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    line-height: 2px;
     input {
-      width: 18px;
-      height: 18px;
-    }
-    p {
-      margin-left: 15px;
-      color: #777575;
-      line-height: 20px;
+      appearance: none;
+      width: 16px;
+      height: 16px;
+      background-color: #e8e8e8;
+      margin-right: 6px;
+      border-radius: 3px;
+      &:checked {
+        background-color: #e34646;
+      }
+      &:checked:after {
+        content: '';
+        display: block;
+        width: 3.5px;
+        height: 8px;
+        border: 3px solid white;
+        border-width: 0 3px 3px 0;
+        transform: rotate(45deg);
+        margin: 1px 5px;
+      }
     }
   }
   .login-button {
-    border: none;
+    border: 1px solid #d5d5d5;
     background-color: #e34646;
     border-radius: 16px;
     padding: 1rem 1.2rem;
     margin-top: 250px;
     display: flex;
-    img {
-      width: 30px;
+    svg {
+      width: 20px;
+    }
+  }
+  .disabled {
+    background-color: transparent;
+    border: 1px solid #a6a6a6;
+    path {
+      stroke: #a6a6a6;
     }
   }
   footer {
